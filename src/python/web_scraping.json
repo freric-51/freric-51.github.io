@@ -1,0 +1,12 @@
+{
+    "sites":[
+       {
+          "tipo":"acao",
+          "site":"https://statusinvest.com.br/acoes/busca-avancada"
+       },
+       {
+          "tipo":"fiis",
+          "site":"https://statusinvest.com.br/fundos-imobiliarios/busca-avancada"
+       }
+    ]
+ }
