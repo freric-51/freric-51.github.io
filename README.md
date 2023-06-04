@@ -13,7 +13,8 @@ Onde fica o código fonte. A base foi feita ...
 - No terminal, uma vez trazido para o meu computador pelo **git clone**, apaguei o *index.html* do diretório local *freric-51.github.io*.
 - Volto um nível (cd ..) e executo : **npx create-react-app freric-51.github.io**
 - Retorno para *freric-51.github.io* e executo **npm start** para ver o resultado. **Control C** para para-lo.
-- E o deploy segue 2 comandos
+- E o deploy segue estes 2 comandos:
+
  **npm run build** 
  
  **./node_modules/.bin/gh-pages -d build**
