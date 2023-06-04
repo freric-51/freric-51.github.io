@@ -3,6 +3,7 @@
 # ignoro eu mesmo
 git_repo.sh
 git_controle.json
+**/*.log
 
 # dependencies
 /node_modules
