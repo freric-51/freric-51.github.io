@@ -1,14 +1,23 @@
 # freric-51.github.io
 
+
+
 ## Este repositório tem 3 branches:
 
-- [Main](https://github.com/freric-51/freric-51.github.io/tree/main)
-Onde estamos.
+1. [Main](https://github.com/freric-51/freric-51.github.io/tree/main)
+Onde estamos. Serve para a documentação geral.
 
-- [Master](https://github.com/freric-51/freric-51.github.io/tree/master)
-Onde fica o código fonte
+2. [Master](https://github.com/freric-51/freric-51.github.io/tree/master)
+Onde fica o código fonte. A base foi feita
+### Projeto Base
+- Segui o passo a passo do próprio [Guihub Pages](https://pages.github.com/)
+- Uma vez trazido para o meu computador pelo **git clone**, apaguei o *index.html* do diretório local *freric-51.github.io*.
+- volto um nível e executo : **npx create-react-app freric-51.github.io**
+- Retorno para *freric-51.github.io* e executo **npm start** para ver o resultado. **Control C** para para-lo.
+- **npm run build** 
+- **./node_modules/.bin/gh-pages -d build**
 
-- [gh-pages](https://github.com/freric-51/freric-51.github.io/tree/gh-pages)
+3. [gh-pages](https://github.com/freric-51/freric-51.github.io/tree/gh-pages)
 Usado pelo Git Pages para renderizar minha [página](https://freric-51.github.io/)
 
 Para escolher o branche usado pelo github pages deve-se seguir a sequencia
