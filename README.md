@@ -11,8 +11,8 @@ Onde estamos. Serve para a documentação geral.
 Onde fica o código fonte. A base foi feita ...
 - Segui o passo a passo do próprio [Guihub Pages](https://pages.github.com/)
 - No terminal, uma vez trazido para o meu computador pelo **git clone**, apaguei o *index.html* do diretório local *freric-51.github.io*.
-- Volto um nível (cd ..) e executo : **npx create-react-app freric-51.github.io**
-- Retorno para *freric-51.github.io* e executo **npm start** para ver o resultado. **Control C** para para-lo.
+- Voltei um nível (cd ..) e executei : **npx create-react-app freric-51.github.io**
+- Retornei para *freric-51.github.io* e executei **npm start** para ver o resultado. **Control C** para para-lo.
 - E o deploy segue estes 2 comandos:
 
  **npm run build** 
