@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
     Programa que retorna acoes e FIIs
+    Configuração em arquivo json
 """
 
 import shutilwhich
@@ -21,7 +22,6 @@ elif shutilwhich.which('firefox') is not None:
     driver = webdriver.Firefox(service=FirefoxService(service=serv))
 else:
     raise ModuleNotFoundError('Não foi encontrado web browser firefox ou chrome')
-
 
 
 driver.get("https://google.co.uk")
