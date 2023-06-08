@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { WithContext as ReactTags } from 'react-tag-input';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.id='G-4W0ESB57EC';
+// root.id='G-4W0ESB57EC';
 root.render(
   <React.StrictMode>
     <App />
