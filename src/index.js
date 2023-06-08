@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,5 +24,8 @@ function sendToAnalytics({ id, name, value }) {
       nonInteraction: true, // avoids affecting bounce rate
     });
   }
+
 // name: 'CLS' | 'FCP' | 'FID' | 'LCP' | 'TTFB'
-reportWebVitals(sendToAnalytics(reportWebVitals.reportHandler));
+// ID da métrica   G-4W0ESB57EC
+root.id='G-4W0ESB57EC'
+reportWebVitals(sendToAnalytics(root));
