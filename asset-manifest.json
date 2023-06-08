@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2847ad70.js",
-    "static/js/787.e59f9b02.chunk.js": "/static/js/787.e59f9b02.chunk.js",
-    "static/media/logo.png": "/static/media/logo.3fdb247f186b8b7633cd.png",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2847ad70.js.map": "/static/js/main.2847ad70.js.map",
-    "787.e59f9b02.chunk.js.map": "/static/js/787.e59f9b02.chunk.js.map"
+    "main.css": "https://freric-51.github.io/static/css/main.073c9b0a.css",
+    "main.js": "https://freric-51.github.io/static/js/main.9efdef41.js",
+    "static/js/787.e59f9b02.chunk.js": "https://freric-51.github.io/static/js/787.e59f9b02.chunk.js",
+    "static/media/logo.png": "https://freric-51.github.io/static/media/logo.3fdb247f186b8b7633cd.png",
+    "index.html": "https://freric-51.github.io/index.html",
+    "main.073c9b0a.css.map": "https://freric-51.github.io/static/css/main.073c9b0a.css.map",
+    "main.9efdef41.js.map": "https://freric-51.github.io/static/js/main.9efdef41.js.map",
+    "787.e59f9b02.chunk.js.map": "https://freric-51.github.io/static/js/787.e59f9b02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2847ad70.js"
+    "static/js/main.9efdef41.js"
   ]
 }
