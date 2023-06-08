@@ -24,19 +24,5 @@ function sendToAnalytics({ id, name, value }) {
     });
   }
 
-// function sendToAnalytics(metric) {
-//     const body = JSON.stringify(metric);
-//     const url = 'https://freric-51.github.io/analytics';
-
-//     // Use `navigator.sendBeacon()` if available, falling back to `fetch()`
-//     if (navigator.sendBeacon) {
-//       navigator.sendBeacon(url, body);
-//     } else {
-//       fetch(url, { body, method: 'POST', keepalive: true });
-//     }
-//   }
-
-
-
-reportWebVitals(sendToAnalytics('G-4W0ESB57EC'));
+reportWebVitals(sendToAnalytics('G-4W0ESB57EC','acesso',1));
 
