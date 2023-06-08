@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+root.id='G-4W0ESB57EC';
 root.render(
   <React.StrictMode>
     <App />
@@ -27,5 +28,5 @@ function sendToAnalytics({ id, name, value }) {
 
 // name: 'CLS' | 'FCP' | 'FID' | 'LCP' | 'TTFB'
 // ID da métrica   G-4W0ESB57EC
-root.id='G-4W0ESB57EC'
+
 reportWebVitals(sendToAnalytics(root));
