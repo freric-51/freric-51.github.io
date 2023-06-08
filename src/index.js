@@ -24,5 +24,4 @@ function sendToAnalytics({ id, name, value }) {
     });
   }
 
-reportWebVitals(sendToAnalytics('G-4W0ESB57EC','acesso',1));
-
+reportWebVitals(sendToAnalytics('G-4W0ESB57EC','all',1));
