@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-            <h2>Ricardo @ 2023 08 17:47</h2>
+            <h2>Ricardo @ 2023 08 17:54</h2>
             {/* Edit <code>src/App.js</code> and save to reload.  */}
         </p>
 
@@ -21,6 +21,10 @@ function App() {
         </a>
 
       </header>
+      <script>
+        {/* ID da métrica   G-4W0ESB57EC */}
+        gtag('config', 'G-4W0ESB57EC');
+      </script>
     </div>
   );
 }

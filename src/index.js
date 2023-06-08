@@ -27,6 +27,4 @@ function sendToAnalytics({ id, name, value }) {
   }
 
 // name: 'CLS' | 'FCP' | 'FID' | 'LCP' | 'TTFB'
-// ID da métrica   G-4W0ESB57EC
-
 reportWebVitals(sendToAnalytics(root));
