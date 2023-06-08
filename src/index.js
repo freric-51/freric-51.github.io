@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
@@ -23,5 +25,5 @@ function sendToAnalytics({ id, name, value }) {
       nonInteraction: true, // avoids affecting bounce rate
     });
   }
-
-reportWebVitals(sendToAnalytics('G-4W0ESB57EC','all',1));
+// name: 'CLS' | 'FCP' | 'FID' | 'LCP' | 'TTFB'
+reportWebVitals(sendToAnalytics(reportWebVitals.reportHandler));
