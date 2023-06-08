@@ -1,8 +1,6 @@
 import logo from './logo.png';
 import './App.css';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -10,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-            <h2>Ricardo @ 2023 08 18:28</h2>
+            <h2>Ricardo @ 2023 08 18:40</h2>
             {/* Edit <code>src/App.js</code> and save to reload.  */}
         </p>
 
