@@ -2,11 +2,61 @@
     "sites":[
        {
           "tipo":"acao",
-          "site":"https://statusinvest.com.br/acoes/busca-avancada"
+          "site":"https://statusinvest.com.br/acoes/busca-avancada",
+          "xPathBuscar":"/html/body/main/div[3]/div/div/div/button[2]",
+          "xPathDownload":"/html/body/main/div[4]/div/div[1]/div[2]/a",
+          "DownloadFileName":"statusinvest-busca-avancada.csv",
+          "NewFileName":"acao.csv",
+          "fields":{
+             "separator":";",
+             "1":{
+                "name":"TICKER",
+                "meaning":"",
+                "filter":{
+                   "use":"False",
+                   "condition":"",
+                   "value":""
+                }
+             },
+             "2":{
+                "name":"ULTIMO DIVIDENDO",
+                "meaning":"Retorno",
+                "filter":{
+                   "use":"True",
+                   "condition":">",
+                   "value":"0.7"
+                }
+             }
+          }
        },
        {
           "tipo":"fiis",
-          "site":"https://statusinvest.com.br/fundos-imobiliarios/busca-avancada"
+          "site":"https://statusinvest.com.br/fundos-imobiliarios/busca-avancada",
+          "xPathBuscar":"/html/body/main/div[3]/div/div/div/button[2]",
+          "xPathDownload":"/html/body/main/div[4]/div/div[1]/div[2]/a",
+          "DownloadFileName":"statusinvest-busca-avancada.csv",
+          "NewFileName":"fii.csv",
+          "fields":{
+             "separator":";",
+             "1":{
+                "name":"TICKER",
+                "meaning":"",
+                "filter":{
+                   "use":"False",
+                   "condition":"",
+                   "value":""
+                }
+             },
+             "2":{
+                "name":"ULTIMO DIVIDENDO",
+                "meaning":"Retorno",
+                "filter":{
+                   "use":"True",
+                   "condition":">",
+                   "value":"0.7"
+                }
+             }
+          }
        }
     ]
  }
