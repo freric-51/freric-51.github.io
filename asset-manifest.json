@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://freric-51.github.io/static/css/main.15f80ac6.css",
-    "main.js": "https://freric-51.github.io/static/js/main.974fe280.js",
+    "main.js": "https://freric-51.github.io/static/js/main.586dd1d5.js",
     "static/js/787.e59f9b02.chunk.js": "https://freric-51.github.io/static/js/787.e59f9b02.chunk.js",
     "static/media/logo.png": "https://freric-51.github.io/static/media/logo.3fdb247f186b8b7633cd.png",
     "index.html": "https://freric-51.github.io/index.html",
     "main.15f80ac6.css.map": "https://freric-51.github.io/static/css/main.15f80ac6.css.map",
-    "main.974fe280.js.map": "https://freric-51.github.io/static/js/main.974fe280.js.map",
+    "main.586dd1d5.js.map": "https://freric-51.github.io/static/js/main.586dd1d5.js.map",
     "787.e59f9b02.chunk.js.map": "https://freric-51.github.io/static/js/787.e59f9b02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15f80ac6.css",
-    "static/js/main.974fe280.js"
+    "static/js/main.586dd1d5.js"
   ]
 }
