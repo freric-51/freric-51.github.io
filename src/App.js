@@ -21,7 +21,7 @@ function App() {
           My LinkedIn
         </a>
 
-        const nav = (
+        {/* const nav = (
                     <nav>
                         <ul>
                         <li><a href="#">Início</a></li>
@@ -29,7 +29,7 @@ function App() {
                         <li><a href="#">Contato</a></li>
                         </ul>
                     </nav>
-                    )
+                    ) */}
 
 
       </header>
