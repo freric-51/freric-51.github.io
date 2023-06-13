@@ -7,6 +7,7 @@ function App() {
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
             <h2>Ricardo @ 2023</h2>
             {/* Edit <code>src/App.js</code> and save to reload.  */}
@@ -21,15 +22,15 @@ function App() {
           My LinkedIn
         </a>
 
-        {/* const nav = (
-                    <nav>
-                        <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
-                        </ul>
-                    </nav>
-                    ) */}
+        <a
+          className="App-link"
+          href="https://github.com/freric-51/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My GitHub
+        </a>
+
 
 
       </header>

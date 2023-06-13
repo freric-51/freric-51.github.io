@@ -1,10 +1,14 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+// eslint-disable-next-line
+import {useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// eslint-disable-next-line
 import { BrowserRouter } from 'react-router-dom';
 import ReactGA from "react-ga4";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement );
@@ -16,7 +20,7 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-//   ,  document.getElementById('root')
+
 );
 
 const SendAnalytics = ()=> {
