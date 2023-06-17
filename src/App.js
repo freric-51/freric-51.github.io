@@ -6,10 +6,11 @@ function App() {
     <div className="App">
 
       <header className="App-header">
+        <table></table>
         <img src={logo} className="App-logo" alt="logo" />
-        
+
         <p>
-            <h2>Ricardo @ 2023</h2>
+            <h3>Ricardo @ 2023</h3>
             {/* Edit <code>src/App.js</code> and save to reload.  */}
         </p>
 
@@ -19,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          My LinkedIn
+        <FormattedMessage id="Meu!" LinkedIn />
         </a>
 
         <a
@@ -28,10 +29,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          My GitHub
+        <FormattedMessage id="Meu!" GitHub />
         </a>
-
-
 
       </header>
 

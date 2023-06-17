@@ -1,6 +1,6 @@
 {
   "name": "freric-51.github.io",
-  "version": "0.1.0",
+  "version": "0.1",
   "private": true,
   "homepage": "https://freric-51.github.io/",
   "dependencies": {
@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga4": "^2.1.0",
+    "react-intl": "^6.4.4",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
