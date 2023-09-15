@@ -6,7 +6,7 @@
           "xPathBuscar":"/html/body/main/div[3]/div/div/div/button[2]",
           "xPathDownload":"/html/body/main/div[4]/div/div[1]/div[2]/a",
           "DownloadFileName":"statusinvest-busca-avancada.csv",
-          "NewFileName":"acao.csv",
+          "NewFileName":"acao_%Y%M.csv",
           "fields":{
              "separator":";",
              "1":{
@@ -35,7 +35,7 @@
           "xPathBuscar":"/html/body/main/div[3]/div/div/div/button[2]",
           "xPathDownload":"/html/body/main/div[4]/div/div[1]/div[2]/a",
           "DownloadFileName":"statusinvest-busca-avancada.csv",
-          "NewFileName":"fii.csv",
+          "NewFileName":"fii_%Y%M.csv",
           "fields":{
              "separator":";",
              "1":{

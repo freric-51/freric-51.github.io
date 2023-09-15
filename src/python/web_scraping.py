@@ -17,6 +17,9 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 
 BasePath = os.path.realpath('.')
+# Is base path indicated to the right place?
+print(BasePath)
+
 DownloadPath = BasePath + '/data/'
 JsonPath = BasePath + '/src/python/'
 
@@ -25,8 +28,9 @@ if shutilwhich.which('google-chrome') is not None:
     from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.chrome.service import Service as ChromiumService
     from webdriver_manager.chrome import ChromeDriverManager
-    from webdriver_manager.core.utils import ChromeType
-    serv = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+    # from webdriver_manager.core.utils import ChromeType
+    # serv = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+    serv = ChromeDriverManager().install()
     # default download path
     opt = Options()
     opt.add_argument("--disable-notifications")
@@ -65,6 +69,7 @@ file_json.close()
 # get site data
 TIMEOUT=30
 browser.implicitly_wait(TIMEOUT) # seconds
+YEAR_MONTH=time.strftime("%Y%m")
 
 for sites in dict_JSON['sites']:
     xpath_search=sites['xPathBuscar']
@@ -80,6 +85,7 @@ for sites in dict_JSON['sites']:
         os.remove(file_src)
 
     file_dst=DownloadPath + sites['NewFileName']
+    file_dst=file_dst.replace("%Y%M",YEAR_MONTH)
     if os.path.exists(file_dst):
         os.remove(file_dst)
 
