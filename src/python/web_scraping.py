@@ -19,7 +19,7 @@ from selenium.webdriver.common.by import By
 BasePath = os.path.realpath('.')
 # Is base path indicated to the right place?
 print(BasePath)
-
+print("DEVE COMEÇAR NA BASE!!!! no terminal execute ./src/python/web_scraping.py")
 DownloadPath = BasePath + '/data/'
 JsonPath = BasePath + '/src/python/'
 
@@ -30,7 +30,9 @@ if shutilwhich.which('google-chrome') is not None:
     from webdriver_manager.chrome import ChromeDriverManager
     # from webdriver_manager.core.utils import ChromeType
     # serv = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+    print("Chrome Driver Manager ?")
     serv = ChromeDriverManager().install()
+    print("Chrome Driver Manager Updated")
     # default download path
     opt = Options()
     opt.add_argument("--disable-notifications")
